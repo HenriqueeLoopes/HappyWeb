@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 
 import "../../assets/styles/global.css";
@@ -23,9 +23,9 @@ export default function Landing() {
           <span>Sao Paulo</span>
         </div>
 
-        <a href="/" className="enter-app">
+        <Link to="/app" className="enter-app">
           <FiArrowRight size={26} color="rgba(0, 0, 0, 0.6)" />
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -5,9 +5,6 @@ import './assets/styles/global.css';
 
 import Routes from './routes';
 
-import Landing from './pages/Landing';
-
-
 ReactDOM.render(
   <React.StrictMode>
     <Routes />

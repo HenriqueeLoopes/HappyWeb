@@ -1,0 +1,80 @@
+.main-wrapper {
+    position: relative;
+    display: flex;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-wrapper aside {
+    width: 20%;
+    background: linear-gradient(329.54deg, #15B6D6 0%, #15D6D6 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-wrapper aside header {
+    margin: 20% 40px;
+}
+
+.main-wrapper aside header h2 {
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 800;
+    margin: 10% 0;
+}
+
+.main-wrapper aside header p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.main-wrapper aside footer {
+    margin: 20% 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    line-height: 24px;
+}
+
+.main-wrapper aside footer strong {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.main-wrapper aside footer span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+}
+
+.main-wrapper .leaflet-container {
+    z-index: 5;
+}
+
+.main-wrapper .create-orphanage {
+    z-index: 10;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+
+    width: 64px;
+    height: 64px;
+    background: #15c3d6;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.2s
+}
+
+.main-wrapper .create-orphanage:hover {
+    background-color: #17d6eb;
+}
